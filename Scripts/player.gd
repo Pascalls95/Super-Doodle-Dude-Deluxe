@@ -3,7 +3,7 @@ extends CharacterBody2D
 @onready var spawn_position = global_position
 @onready var score_label = $"../UI/ScoreLabel"
 @onready var lives_label = $"../UI/LivesLabel"
-const SPEED = 600.0
+const SPEED = 400.0
 const JUMP_VELOCITY = -690.0
 
 func _physics_process(delta: float) -> void:
